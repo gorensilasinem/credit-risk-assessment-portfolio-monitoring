@@ -59,6 +59,14 @@ The dashboard includes:
 
 ![Credit Risk Assessment & Portfolio Monitoring Dashboard](credit-risk-dashboard-preview.png)
 
+### Download the Power BI Report
+
+[Download the Power BI Dashboard (.pbix)](Credit%20Risk%20Portfolio%20Data.pbix)
+
+The Power BI report can be opened using Power BI Desktop on Windows.
+
+The report includes interactive portfolio KPIs, credit risk segmentation, loan duration and amount analysis, and age-group filtering.
+
 ## Key Findings
 
 ### 1. Loan Duration and Credit Risk
