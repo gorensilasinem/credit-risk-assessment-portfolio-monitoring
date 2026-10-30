@@ -25,6 +25,9 @@ The dataset is a historical benchmark and does not represent a current banking p
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- Power BI
+- DAX
+- Power Query
 
 ## Key Portfolio KPIs
 
@@ -39,6 +42,22 @@ The dataset is a historical benchmark and does not represent a current banking p
 | Average Loan Amount — Good Credit | 2,985.44 |
 
 *Credit exposure represents the sum of loan amounts in the dataset, not outstanding balances or realized losses.*
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed to analyze credit risk patterns and monitor portfolio performance using the South German Credit dataset.
+
+The dashboard includes:
+- **Portfolio KPIs:** Total loans, average loan amount, bad credit rate, total credit exposure, and bad credit exposure.
+- **Credit Risk by Loan Duration:** Comparison of bad credit rates across different loan terms.
+- **Credit Risk by Loan Amount:** Analysis of credit risk across loan amount categories.
+- **Credit Risk by Age Group:** Identification of higher-risk borrower age groups.
+- **Interactive Filtering:** Age-based portfolio segmentation.
+- **Key Portfolio Insights:** Summary of the main findings from the full dataset.
+
+### Dashboard Preview
+
+![Credit Risk Assessment & Portfolio Monitoring Dashboard](credit-risk-dashboard-preview.png)
 
 ## Key Findings
 
@@ -82,7 +101,7 @@ Small sample sizes in certain categories limit the reliability of direct compari
 
 3. **Improve risk segmentation:** Combine credit history, loan amount, and loan duration to identify segments requiring further investigation.
 
-4. **Develop a portfolio monitoring dashboard:** Track key risk indicators and segment-level exposure distributions.
+4. **Maintain and enhance portfolio monitoring:** Use the Power BI dashboard to track key risk indicators, monitor exposure concentrations, and investigate risk patterns across loan segments.
 
 5. **Validate findings before implementation:** Assess results using more recent and representative data, including appropriate fairness and regulatory considerations.
 
@@ -104,7 +123,6 @@ Small sample sizes in certain categories limit the reliability of direct compari
 
 ## Future Improvements
 
-- Develop and evaluate credit risk classification models.
 - Compare Logistic Regression, Random Forest, and Gradient Boosting approaches.
 - Evaluate model performance using ROC-AUC, precision, recall, and confusion matrices.
 - Explore model interpretability and fairness.
